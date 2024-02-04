@@ -1,0 +1,31 @@
+# Configure Discourse
+
+## 1. Access Droplet via SSH
+
+Once the droplet is created, use SSH to connect to your droplet. Follow the instructions provided by DigitalOcean.
+
+## 2. Run Discourse Setup Script
+
+Execute the Discourse setup script by running the following commands:
+
+```bash
+cd /var/discourse
+./discourse-setup`
+```
+
+## 3. Follow Setup Wizard
+
+The setup wizard will guide you through various configuration options, including email settings and administrator account creation.
+
+## 4. Configure Email (Optional)
+
+If you haven't set up email during the initial Discourse setup, you can configure it later using the `./discourse-setup` script.
+
+## 5. Rebuild Discourse
+
+After configuring, run the following command to rebuild Discourse with the new settings:
+
+```bash
+cd /var/discourse
+./launcher rebuild app
+```

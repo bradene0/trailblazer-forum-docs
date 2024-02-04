@@ -1,0 +1,29 @@
+# Setting Up Discourse on DigitalOcean
+
+On your first SSH login to the droplet or launch of the Droplet console of your Discourse Droplet 1-Click, you will be greeted by the Discourse installation script.
+
+After pressing Enter, the script will check if your system has enough RAM. If the droplet has less than 2 GB of RAM, Discourse will automatically set up swap space to improve performance:
+
+![Discourse Swap Example](https://i.imgur.com/eSCcO47.png)
+
+Note: It is recommended to use at least a 2GB RAM machine for your Discourse droplet.
+
+The script will soon prompt you to enter the domain name for your Discourse server:
+
+![Discourse Domain Example](https://i.imgur.com/1CRDQr3.png)
+
+The DNS Host may be the same company you registered the domain with or another entity you designate. To connect your DNS hosting to DigitalOcean, check out this [guide](https://docs.digitalocean.com/products/networking/dns/getting-started/dns-registrars/).
+
+In the next step, the script will ask for the email address for the admin account and SMTP relay credentials:
+
+![Discourse Credentials Example](https://i.imgur.com/8oRuLTD.png)
+
+After this, you will enter your email address to receive LetsEncrypt security and renewal notices and the Maxmind license key if you have one. Leave the prompt empty if you don’t intend to use Maxmind:
+
+![Discourse Optional Credentials Example](https://i.imgur.com/XMaesjs.png)
+
+The script will take about ~10-15 minutes to download, install, and configure Discourse and all dependencies.
+
+![Discourse Installation Complete](https://i.imgur.com/w8ih2hF.png)
+
+At this point, your Discourse Droplet is configured and ready to use. Type your Discourse domain name in the browser to access it.

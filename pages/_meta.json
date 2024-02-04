@@ -1,10 +1,16 @@
 {
   "index": "Introduction",
-  "another": "Another Page",
+  
   "Domains": {
     "domain-sourcing": "Domain Sourcing",
     "names-servers": "Name Servers"
   },
+  "smtp-info": "Setting up SMTP for Discourse",
+  "droplet-deployment": "Deploying a Discourse Droplet on DigitalOcean",
+  "discourse-configure": "Configure Discourse",
+  "add-config": "Additional Configuration (Optional)",
+  "droplet-discourse-console": "Setting Up Discourse on DigitalOcean",
+  "getting-started-discourse": " Getting Started with Discourse",
   "about": {
     "title": "About",
     "type": "page"

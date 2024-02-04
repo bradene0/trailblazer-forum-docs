@@ -1,0 +1,41 @@
+# Setting up SMTP for Discourse
+
+To enable email functionalities such as user verification, password resets, email verifications, and security events in Discourse, you need to set up Simple Mail Transfer Protocol (SMTP). SMTP allows Discourse to send emails, and you'll need SMTP credentials for this purpose. These credentials can be obtained from an email delivery service like SparkPost, Sendgrid, Mailgun, or any other SMTP provider of your choice.
+
+## Why do you need SMTP?
+
+Discourse relies on SMTP for sending essential emails to users, such as verification emails during the signup process. If you don't enable an SMTP provider, users won't be able to sign up on your server, and critical features like password resets and email verifications will be compromised.
+
+## Steps to Set Up SMTP in Discourse
+
+1. **Choose an SMTP Provider:**
+   Select an SMTP provider of your choice. Popular options include SparkPost, Sendgrid, Mailgun, etc.
+
+2. **Create an Account:**
+   Sign up for an account with your chosen SMTP provider if you don't already have one.
+
+3. **Obtain SMTP Credentials:**
+   After creating an account, obtain the SMTP credentials provided by your chosen provider. This typically includes the SMTP server address, port number, username, and password.
+
+4. **Access Discourse Admin Panel:**
+   Log in to your Discourse Admin Panel.
+
+5. **Navigate to Email Settings:**
+   In the Admin Panel, go to `Settings` > `Email`.
+
+6. **Configure SMTP Settings:**
+   Scroll down to the 'SMTP' section. Enter the SMTP server address, port number, username, and password obtained from your SMTP provider.
+
+7. **Enable SMTP:**
+   Toggle the 'Enable SMTP' option to activate the SMTP settings.
+
+8. **Save Changes:**
+   Click on the 'Save Changes' button to apply the SMTP configuration.
+
+9. **Test Email Configuration:**
+   Discourse provides a feature to test your email configuration. Use this to ensure that the SMTP setup is working correctly.
+
+10. **Restart Discourse:**
+    After making changes, it's recommended to restart your Discourse instance for the settings to take effect.
+
+Congratulations! You've successfully set up SMTP for Discourse.
