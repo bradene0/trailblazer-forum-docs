@@ -1,7 +1,10 @@
 {
   "index": "Introduction",
   "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
+  "Domains": {
+    "domain-sourcing": "Domain Sourcing",
+    "names-servers": "Name Servers"
+  },
   "about": {
     "title": "About",
     "type": "page"

@@ -1,0 +1,35 @@
+# Name Servers
+
+## Why Change Name Servers?
+
+Changing name servers is a crucial step when you want to link your GoDaddy domain to your Digital Ocean droplet. Name servers act as the authoritative servers that translate human-readable domain names into IP addresses, directing web traffic to the correct server. In this case, updating the name servers to Digital Ocean's ensures that visitors to your domain are directed to the correct hosting environment, preventing a 404 error.
+
+## Step 1: Log in to Your GoDaddy Account
+
+Visit GoDaddy's website and log in to your account using your credentials.
+
+## Step 2: Access Your Domain Settings
+
+Go to the "My Products" section and find the domain you want to update. Click on the domain to access its settings.
+
+## Step 3: Locate the Name Server Section
+
+Within the domain settings, look for the "Name Servers" section. This is where you can manage the name servers associated with your domain.
+
+## Step 4: Choose "Custom" Name Servers
+
+By default, GoDaddy may use its own name servers. To set custom name servers, choose the option that allows you to input your own server information. This is often labeled as "Custom" or "Enter custom name servers."
+
+## Step 5: Input Digital Ocean's Name Servers
+
+Enter the following Digital Ocean name servers in the provided fields:
+
+- `ns1.digitalocean.com`
+- `ns2.digitalocean.com`
+- `ns3.digitalocean.com`
+
+Make sure to save the changes. It may take some time for the changes to propagate across the internet.
+
+## Step 6: Verify Name Server Update
+
+After making the changes, it's essential to verify that the name server update is successful. You can do this by checking your domain settings on GoDaddy or using online tools to confirm the new name server associations.
