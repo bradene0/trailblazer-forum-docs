@@ -9,7 +9,7 @@ const config: DocsThemeConfig = {
 
   docsRepositoryBase: 'https://github.com/bradene0/trailblazer-forum-docs',
   footer: {
-    text: 'trailblzer forum',
+    text: 'trailblazer forum',
   },
 }
 
