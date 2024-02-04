@@ -11,14 +11,10 @@
   "add-config": "Additional Configuration (Optional)",
   "droplet-discourse-console": "Setting Up Discourse on DigitalOcean",
   "getting-started-discourse": " Getting Started with Discourse",
-  "about": {
-    "title": "About",
-    "type": "page"
-  },
   "contact": {
     "title": "Contact ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://www.linkedin.com/in/bradene00/",
     "newWindow": true
   }
 }
